@@ -1,0 +1,38 @@
+{
+  "name": "sms-handler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ENV=local webpack --watch --config ./src/webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/events-api": "^2.2.0",
+    "@slack/web-api": "^5.0.1",
+    "@slack/webhook": "^5.0.0",
+    "aws-serverless-express": "^3.3.6",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "serverless-dotenv-plugin": "^2.1.1",
+    "source-map-support": "^0.5.12",
+    "webpack-cli": "^3.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-source-map-support": "^2.0.1",
+    "nodemon-webpack-plugin": "^4.0.8",
+    "serverless-domain-manager": "^3.2.1",
+    "serverless-webpack": "^5.2.0",
+    "webpack": "^4.30.0",
+    "webpack-dev-server": "^3.3.1",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
